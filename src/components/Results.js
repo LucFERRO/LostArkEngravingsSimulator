@@ -14,7 +14,6 @@ const Results = () => {
       <input disabled></input>
       <input disabled></input>
       <input disabled></input>
-
     </div>
   )
 }
