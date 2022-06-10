@@ -1,10 +1,11 @@
 import React from 'react'
 
 const Headline = (props) => {
-  const engravings = ['ClassEngraving','Grudge','Cursed Doll','Adrenaline']
+  const engravings = ['ClassEngraving','Grudge','Cursed Doll','Adrenaline'];
+
   return (
     <div class="line">
-      <p></p>
+      <p><button>GO</button></p>
       <select>
         <option value="" selected>Engraving 1</option>
         {engravings.map((engraving, index) => (
@@ -41,10 +42,10 @@ const Headline = (props) => {
           <option key={index} value={engraving}>{engraving}</option>
         ))}
       </select>
-      <p class="debuff">-AtkPower</p>
-      <p class="debuff">-AtkSpeed</p>
-      <p class="debuff">-MoveSpeed</p>
-      <p class="debuff">-Defense</p>
+      <p class="malus">-AtkPower</p>
+      <p class="malus">-AtkSpeed</p>
+      <p class="malus">-MoveSpeed</p>
+      <p class="malus">-Defense</p>
     </div>
   )
 }

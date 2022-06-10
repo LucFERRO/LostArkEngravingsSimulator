@@ -43,7 +43,7 @@ input[type=number] {
     text-align: center;
   }
 
-  .debuff {
+  .malus {
     width: 125px;
     color: red;
     border: none;
@@ -59,3 +59,7 @@ input[type=number] {
   }
 }
 
+.results {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
