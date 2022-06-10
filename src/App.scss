@@ -1,0 +1,48 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+#table {
+  border: 2px solid red;
+}
+
+.line {
+  border: 2px solid green;
+  display: flex;
+  flex-direction: row;
+
+
+  :first-child {
+    color: blue;
+    width: 100px;
+  }
+
+  p, input {
+    width: 75px;
+    border-left: 1px solid grey;
+  }
+
+  input {
+    text-align: center;
+    border: none;
+    &:focus {
+      outline: none;
+    }
+    border-left: 1px solid grey;
+  }
+}
+
